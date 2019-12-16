@@ -1,0 +1,117 @@
+<resources>
+
+    <style name="Base.Theme.C3" parent="Theme.AppCompat.DayNight.NoActionBar">
+
+        <!-- The color displayed most frequently across your app’s screens and components. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <!-- A color that passes accessibility guidelines for text/iconography when drawn on top of the primary color. -->
+        <item name="colorOnPrimary">@color/colorOnPrimary</item>
+        <!-- A tonal variation of the primary color. -->
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+
+        <!-- The secondary branding color for the app, usually an accented complement to the primary branding color. -->
+        <item name="colorAccent">@color/colorSecondary</item>
+        <!-- A color that passes accessibility guidelines for text/iconography when drawn on top of the secondary color. -->
+        <item name="colorOnSecondary">@color/colorOnSecondary</item>
+        <!-- A tonal variation of the secondary color. -->
+        <item name="colorSecondary">@color/colorSecondaryDark</item>
+
+        <!-- Surface colors affect surfaces of components, such as cards, sheets, and menus. -->
+        <item name="colorSurface">@color/colorSurface</item>
+        <!-- A color that passes accessibility guidelines for text/iconography when drawn on top of the surface color. -->
+        <item name="colorOnSurface">@color/colorOnSurface</item>
+
+        <!-- The background color appears behind scrollable content. -->
+        <item name="android:colorBackground">@color/colorBackground</item>
+        <!-- A color that passes accessibility guidelines for text/iconography when drawn on top of the background color. -->
+        <item name="colorOnBackground">@color/colorOnBackground</item>
+
+        <!-- Error color indicates errors states, for components such as text fields -->
+        <item name="colorError">@color/colorError</item>
+        <!-- A color that passes accessibility guidelines for text/iconography when drawn on top of the error color. -->
+        <item name="colorOnError">@color/colorOnError</item>
+    </style>
+
+    <style name="Theme.C3" parent="Base.Theme.C3">
+        <item name="buttonStyle">@style/Widget.C3.Button</item>
+    </style>
+
+    <style name="Theme.C3.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.C3.AppBarOverlay" parent="Theme.AppCompat.DayNight.DarkActionBar"/>
+
+    <style name="Widget.C3.Button" parent="Widget.AppCompat.Button">
+        <item name="android:backgroundTint">?colorAccent</item>
+    </style>
+
+    <style name="Theme.C3.Heading1">
+        <item name="android:fontFamily">@font/roboto_light</item>
+        <item name="android:textSize">96sp</item>
+        <item name="android:letterSpacing">-1.5</item>
+    </style>
+    <style name="Theme.C3.Heading2">
+        <item name="android:fontFamily">@font/roboto_light</item>
+        <item name="android:textSize">60sp</item>
+        <item name="android:letterSpacing">-0.5</item>
+    </style>
+    <style name="Theme.C3.Heading3">
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:textSize">48sp</item>
+        <item name="android:letterSpacing">0</item>
+    </style>
+    <style name="Theme.C3.Heading4">
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:textSize">34sp</item>
+        <item name="android:letterSpacing">0.25</item>
+    </style>
+    <style name="Theme.C3.Heading5">
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:letterSpacing">0</item>
+    </style>
+    <style name="Theme.C3.Heading6">
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:letterSpacing">0.15</item>
+    </style>
+    <style name="Theme.C3.Subtitle1">
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:letterSpacing">0.15</item>
+    </style>
+    <style name="Theme.C3.Subtitle2">
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:letterSpacing">0.1</item>
+    </style>
+    <style name="Theme.C3.Body1">
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:letterSpacing">0.5</item>
+    </style>
+    <style name="Theme.C3.Body2">
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:letterSpacing">0.25</item>
+    </style>
+    <style name="Theme.C3.Button">
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:letterSpacing">1.25</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <style name="Theme.C3.Caption">
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:letterSpacing">0.4</item>
+    </style>
+    <style name="Theme.C3.Overline">
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:letterSpacing">1.5</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+</resources>

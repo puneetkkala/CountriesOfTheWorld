@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Countries of the World</string>
+
+    <string name="app_icon_credit">App Icon Credit</string>
+    <string name="app_icon_credit_details">Icon made by turkkub from www.flaticon.com</string>
+
+    <string name="powered_by_credit">Powered By</string>
+    <string name="powered_by_credit_details">https://restcountries.eu/</string>
+
+    <string name="tab_all">All</string>
+    <string name="tab_favorite">Favorite</string>
+    <string name="no_favorite_countries">You do not have any favorite countries as of now.</string>
+    <string name="no_favorite_country_cta">Favorite a Country</string>
+    <string name="share_details">Share Details</string>
+    <string name="filter">Filter</string>
+</resources>
