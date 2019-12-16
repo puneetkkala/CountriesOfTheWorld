@@ -16,7 +16,7 @@
         android:background="?attr/colorSurface"
         android:fitsSystemWindows="true"
         android:stateListAnimator="@animator/show_toolbar"
-        android:theme="@style/Theme.MaterialComponents">
+        android:theme="@style/Theme.C3">
 
         <com.google.android.material.appbar.CollapsingToolbarLayout
             android:id="@+id/toolbar_layout"
